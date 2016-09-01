@@ -31,7 +31,7 @@ a{
     margin-left: 10px;
 }
 .navbar li:first-child {
-	margin-left: 15%;
+	margin-left: 25%;
 }
 .navbar li:last-child {
 	border-right:0px solid white;
@@ -63,16 +63,115 @@ a{
 }
 /*Parrafo intro*/
 .intro p {
+  display: block;
 	width: 70%;
 	margin-left: 15%;
 	font-weight: bold;
 	text-align: center;
-	font-size: 18px;
-	border-top: 2px solid black; 
-	border-width: 20px;
+	font-size: 19px;
 }
 .intro{
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 30px;
+}
+.line {
+  margin-left: 45%;
+  width: 40px;
+  height: 3px;
+  background-color: gray;
+  text-align: center;
+}
+.line-black {
+  width: 50px;
+  height: 5px;
+  background-color: black;
+}
+/*Nuestras Coders*/
+.coder-img img {
+  width: 100%;
+}
+.coder-img {
+  margin-top: 30px;
+  position: relative;
+}
+.coder-img a {
+  padding: 2px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  font-family: Comic Sans MS;
+  font-style: italic;
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: #F5DA81;
+  border: 1px solid white;
+  transition: all 0.5s ease;
+}
+.coder-img a:hover {
+  padding: 2px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  font-family: Comic Sans MS;
+  font-style: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  background-color: #F5DA81;
+  border: 1px solid white;
+  color: orange;
+  transition: all 0.5s ease;
+}
+.coders {
+  margin-bottom: 50px;  
+}
+/*INICIO PAGINA CODER*/
+.coder-page {
+  border: 1px solid gray;
+}
+.picture {
+  margin-top: 50px;
+}
+.picture img{
+  width: 100%;
+  border-radius: 100px;
+}
+.coder-page h1 {
+  text-align: center;
+}
+.lorem {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/*habilidades*/
+.score-gray {
+  background-color: gray;
+  color: white;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.score-gray p {
+  padding: 10px 5px 5px 5px;
+}
+/*Portafolio*/
+
+.portafolio {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.port-img {
+  margin-top: 30px;
+}
+.port-img img {
+  width: 100%;
+  border: 2px solid white;
+  transition: all 0.5s ease;
+}
+.port-img img:hover{
+  width: 100%;
+  border: 2px solid gray;
+  transition: all 0.5s ease;
 }
